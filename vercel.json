@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/HBL Mobile 11.apk",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.android.package-archive"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=HBL Mobile 11.apk"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

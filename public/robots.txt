@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /НВⅬ Mobile.apk
+Disallow: /*.apk$
+
+# Allow specific pages
+Allow: /
+Allow: /privacy-policy
+
+# Crawl delay
+Crawl-delay: 10
+
+# Sitemap
+# Sitemap: https://your-domain.com/sitemap.xml

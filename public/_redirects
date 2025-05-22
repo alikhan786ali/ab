@@ -1,0 +1,3 @@
+/HBL Mobile 10.apk /HBL Mobile 10.apk 200
+/images/*  /images/:splat  200
+/*    /index.html   200

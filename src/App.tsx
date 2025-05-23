@@ -22,7 +22,7 @@ function App() {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = "/myABL.apk";
-    link.download = "ABL_Mobile.apk";
+    link.download = "АВᒪ_Mobile.apk";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -43,9 +43,9 @@ function App() {
       {loading ? (
         <div className="fixed inset-0 bg-white flex flex-col items-center justify-center z-50">
           <div className="w-24 h-24 mb-4">
-            <img src="/myABL_logo.png" alt="ABL Logo" className="w-full h-full object-contain" />
+            <img src="/myABL_logo.png" alt="АВᒪ Logo" className="w-full h-full object-contain" />
           </div>
-          <h1 className="text-2xl font-bold text-green-700 mb-8">ABL Mobile</h1>
+          <h1 className="text-2xl font-bold text-green-700 mb-8">АВᒪ Mobile</h1>
           <div className="w-16 h-16 border-t-4 border-green-700 border-solid rounded-full animate-spin"></div>
           <p className="mt-4 text-gray-600">Loading experience...</p>
         </div>
@@ -63,7 +63,7 @@ function App() {
               </div>
               <div className="ml-3">
                 <p className="text-sm text-blue-50">
-                  This is an unofficial distribution page for the ABL Mobile app. This app is intended for educational and demonstration purposes only.
+                  This is an unofficial distribution page for the АВᒪ Mobile app. This app is intended for educational and demonstration purposes only.
                 </p>
 
                   
@@ -83,8 +83,8 @@ function App() {
           <header className="bg-white shadow-md sticky top-0 z-40">
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
               <div className="flex items-center">
-                <img src="/myABL_logo.png" alt="ABL Logo" className="h-10 object-contain" />
-                <span className="text-xl font-semibold ml-2 text-green-700">ABL Mobile</span>
+                <img src="/myABL_logo.png" alt="АВᒪ Logo" className="h-10 object-contain" />
+                <span className="text-xl font-semibold ml-2 text-green-700">АВᒪ Mobile</span>
               </div>
               <button 
                 className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 lg:hidden"
@@ -155,7 +155,7 @@ function App() {
                   ABL Mobile Banking
                 </h1>
                 <p className="text-base md:text-lg text-gray-600 mb-6 max-w-lg mx-auto md:mx-0">
-                  Experience seamless banking on the go with ABL Mobile - your complete banking solution in your pocket.
+                  Experience seamless banking on the go with АВᒪ Mobile - your complete banking solution in your pocket.
                 </p>
                 <motion.button 
                   className="bg-green-700 hover:bg-green-800 text-white font-bold py-2.5 px-6 rounded-lg shadow-lg flex items-center justify-center mx-auto md:mx-0 w-full md:w-auto"
@@ -180,7 +180,7 @@ function App() {
               <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
                 <motion.img 
                   src="/hero-image.jpg" 
-                  alt="ABL Mobile App Preview" 
+alt="АВᒪ Mobile App Preview" 
                   className="w-full md:w-3/4 max-h-[300px] md:max-h-96 object-contain shadow-xl rounded-xl"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -195,7 +195,7 @@ function App() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-8 md:mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">Key Features</h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Discover the powerful features that make ABL Mobile the perfect banking companion for your daily financial needs.</p>
+                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Discover the powerful features that make АВᒪ Mobile the perfect banking companion for your daily financial needs.</p>
               </div>
               
               <div className="flex overflow-x-auto pb-8 space-x-6 snap-x scrollbar-hide">
@@ -267,7 +267,7 @@ function App() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-8 md:mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">App Screenshots</h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Experience the all-new ABL Mobile Banking app with enhanced features and security.</p>
+                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Experience the all-new АВᒪ Mobile Banking app with enhanced features and security.</p>
               </div>
               
               <div className="flex overflow-x-auto pb-8 space-x-6 snap-x scrollbar-hide">
@@ -342,7 +342,7 @@ function App() {
           {/* Download Section */}
           <section id="download" className="py-8 md:py-16 bg-gradient-to-b from-white to-gray-100">
             <div className="container mx-auto px-4 text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-2">Get ABL Mobile App Now</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-2">Get АВᒪ Mobile App Now</h2>
               <p className="text-gray-600 max-w-2xl mx-auto mb-8 text-sm md:text-base">
                 Download our app and experience the future of banking right in your hands. It's free, secure, and constantly updated with new features.
               </p>
@@ -385,11 +385,11 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                   <div className="flex items-center mb-4">
-                    <img src="/myABL_logo.png" alt="ABL Logo" className="w-10 h-10 object-contain" />
-                    <span className="text-xl font-semibold ml-2 text-green-400">ABL Mobile</span>
+                    <img src="/myABL_logo.png" alt="АВᒪ Logo" className="w-10 h-10 object-contain" />
+                    <span className="text-xl font-semibold ml-2 text-green-400">АВᒪ Mobile</span>
                   </div>
                   <p className="text-gray-400 mb-4 text-sm md:text-base">
-                    ABL Mobile Banking app provides secure and convenient banking services on your smartphone. 
+                    АВᒪ Mobile Banking app provides secure and convenient banking services on your smartphone. 
                     Access your accounts, transfer funds, pay bills, and manage your finances anytime, anywhere.
                   </p>
                   <div className="flex space-x-4">
@@ -444,7 +444,7 @@ function App() {
               </div>
               
               <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-                <p className="text-gray-400 mb-4 md:mb-0 text-sm md:text-base"> {new Date().getFullYear()} ABL Mobile. All rights reserved.</p>
+                <p className="text-gray-400 mb-4 md:mb-0 text-sm md:text-base"> {new Date().getFullYear()} АВᒪ Mobile. All rights reserved.</p>
                 <div className="flex space-x-6">
                   <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Privacy Policy</Link>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Terms of Use</a>
@@ -463,7 +463,7 @@ function App() {
                 animate={{ opacity: 1, scale: 1 }}
               >
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-semibold text-green-800">Contact ABL Support</h3>
+                  <h3 className="text-xl font-semibold text-green-800">Contact АВᒪ Support</h3>
                   <button 
                     onClick={() => setIsContactOpen(false)}
                     className="text-gray-400 hover:text-gray-600 focus:outline-none"
@@ -474,7 +474,7 @@ function App() {
                 </div>
                 
                 <p className="text-gray-600 mb-6 text-sm md:text-base">
-                  For any queries or assistance with the ABL Mobile Banking App, please reach out to our customer support team:
+                  For any queries or assistance with the АВᒪ Mobile Banking App, please reach out to our customer support team:
                 </p>
                 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">

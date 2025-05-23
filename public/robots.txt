@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /ABL Mobile.apk
+Disallow: /АВᒪ Mobile.apk
 Disallow: /*.apk$
 
 # Allow specific pages

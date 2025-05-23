@@ -22,7 +22,7 @@ const PrivacyPolicy: FC = () => {
             
             <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Introduction</h2>
             <p className="text-gray-600 mb-4">
-              This Privacy Policy describes how we collect, use, and disclose your information when you use our ABL Mobile Banking app and related services. This is an unofficial distribution of the app for educational and demonstration purposes only.
+              This Privacy Policy describes how we collect, use, and disclose your information when you use our АВᒪ Mobile Banking app and related services. This is an unofficial distribution of the app for educational and demonstration purposes only.
             </p>
             
             <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Information We Collect</h2>
@@ -71,7 +71,7 @@ const PrivacyPolicy: FC = () => {
             
             <div className="border-t border-gray-200 pt-6 mt-6">
               <p className="text-gray-500 text-sm">
-                This privacy policy is for demonstration purposes only. This is not an official ABL service.
+                This privacy policy is for demonstration purposes only. This is not an official АВᒪ service.
               </p>
             </div>
           </div>
